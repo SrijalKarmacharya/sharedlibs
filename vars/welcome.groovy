@@ -8,8 +8,7 @@ def call(name){
  	   stage('Demo'){
          steps{
 	         welcome("Srijal Karmacharya")
-	         welcome("tyler durden")
-	          script{
+	 	   script{
 	           calculator.add(20,30)
 	           calculator.mul(20,30)
 	          }
