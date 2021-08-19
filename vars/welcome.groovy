@@ -1,8 +1,5 @@
-def call(body) {
-  def pipelineParams= [:]
-  body.resolveStrategy = Closure.DELEGATE_FIRST
-  body.delegate = pipelineParams
-  body()
+def call(name){
+ echo "Hey ${name}, How are you?"
  
   pipeline{
     agent any
