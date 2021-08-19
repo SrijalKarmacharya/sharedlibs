@@ -8,7 +8,7 @@ def call(body) {
     agent any
     stages{
  	   stage('Demo'){
-		   echo "suceeded"
+		   echo 'suceeded'
                steps{
 	          script{
 	            calculator.add(20,30)
