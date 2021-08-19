@@ -9,6 +9,7 @@ def call(body) {
     stages{
  	   stage('Demo'){
                steps{
+		       echo 'success'
 	          script{
 	            calculator.add(20,30)
 	            calculator.mul(20,30)
